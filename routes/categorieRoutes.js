@@ -12,8 +12,6 @@ router.get("/:userID/add/:catName", (req, res) => {
 
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
-
-  res.send("Added category");
 });
 
 router.get("/:userID/modify/:transID/:catName", (req, res) => {
@@ -29,7 +27,7 @@ router.get("/:userID/modify/:transID/:catName", (req, res) => {
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
 
-  res.send("Modified Category");
+  res.status(200).send("Modified Category");
 });
 
 module.exports = router;
