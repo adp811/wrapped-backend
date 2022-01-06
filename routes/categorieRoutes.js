@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const fs = require("fs");
 
-router.get("/:userID/add/:catName", (req, res) => {
+/* router.get("/:userID/add/:catName", (req, res) => {
   const userID = req.params.userID;
   const catName = req.params.catName;
 
@@ -12,7 +12,7 @@ router.get("/:userID/add/:catName", (req, res) => {
 
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
-});
+}); */
 
 router.get("/:userID/modify/:transID/:catName", (req, res) => {
   const userID = req.params.userID;

@@ -9,7 +9,7 @@ http://localhost:4000/api/user/0/accounts
 ###
 
 
-http://localhost:4000/api/user/0/1/transactions
+http://localhost:4000/api/user/0/0/transactions
 
 
 ###
@@ -27,6 +27,15 @@ POST http://localhost:4000/api/user/0/add/macy's
 
 
 GET http://localhost:4000/api/categories/0/modify/1/Candy
+
+###
+
+GET http://localhost:4000/api/user/0/0/transactions/category/Food
+
+###
+
+GET http://localhost:4000/api/user/0/0/transactions/location/Target
+
 
 
 

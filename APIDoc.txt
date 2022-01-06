@@ -1,0 +1,45 @@
+#### Request All Transactions Given a User:
+
+https://wrapped1-backend.herokuapp.com/api/user/<userID>/0/transactions
+
+Parameters: 
+
+<userID> : replace with '0' for default user
+
+Complete API Call: https://wrapped1-backend.herokuapp.com/api/user/0/0/transactions
+
+^^ Returns all transactions for the default user ^^
+
+
+//______________________________________________________________________________________\\
+
+
+#### Request All Transactions Given a User and Category Name
+
+https://wrapped1-backend.herokuapp.com/api/user/<userID>/0/transactions/category/<categoryName>
+
+Parameters: 
+
+<userID> : replace with '0' for default user
+<categoryName> : replace with category name (Food, Transportation, Utilities, etc.)
+
+Complete API Call: https://wrapped1-backend.herokuapp.com/api/user/0/0/transactions/category/Food
+
+^^ Returns all transactions under the Food Category for the default user ^^
+
+
+//______________________________________________________________________________________\\
+
+
+#### Request All Transactions Given a User and Location Name
+
+https://wrapped1-backend.herokuapp.com/api/user/<userID>/0/transactions/location/<locationName>
+
+Parameters: 
+
+<userID> : replace with '0' for default user
+<locationName> : replace with location name (Starbucks, Target, Amazon, etc.)
+
+https://wrapped1-backend.herokuapp.com/api/user/0/0/transactions/location/Target
+
+^^ Returns all transactions under the Target location for the default user ^^
