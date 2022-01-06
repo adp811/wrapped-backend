@@ -1,13 +1,17 @@
 const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
+const app = express();
 
+const cors = require('cors');
 require('dotenv').config();
 
-const app = express();
+const userDataRoutes = require('./routes/userDataRoutes');
+const categorieRoutes = require('./routes/categorieRoutes');
 
 app.use(cors());
 app.use(express.json());
+
+app.use('/api/user', userDataRoutes);
+app.use('/api/user', categorieRoutes);
 
 app.get('/', (req, res)=> {
     res.send("Hello World!");

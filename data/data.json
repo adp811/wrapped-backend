@@ -8,12 +8,11 @@
       "userPassword": "password123",
       "userDOB": "1-01-2000",
       "annualIncome": 50000,
-
+      "categories": [],
       "accounts": [
         {
           "accountId": 0,
           "accountType": "Capital One QuickSilver",
-
           "transactions": [
             {
               "id": 0,
@@ -38,11 +37,9 @@
             }
           ]
         },
-
         {
           "accountId": 1,
           "accountType": "Capital One 360 Checking",
-
           "transactions": [
             {
               "id": 0,
@@ -69,7 +66,6 @@
         }
       ]
     },
-
     {
       "userID": 1,
       "userFirstName": "Jane",
@@ -78,57 +74,23 @@
       "userPassword": "password123",
       "userDOB": "06-01-2000",
       "annualIncome": 100000,
-
       "accounts": [
         {
           "accountId": 0,
           "accountType": "Credit Card",
-
           "transactions": [
-            {
-              "id": "",
-              "amount": "",
-              "date": "",
-              "category": ""
-            },
-            {
-              "id": "",
-              "amount": "",
-              "date": "",
-              "category": ""
-            },
-            {
-              "id": "",
-              "amount": "",
-              "date": "",
-              "category": ""
-            }
+            { "id": "", "amount": "", "date": "", "category": "" },
+            { "id": "", "amount": "", "date": "", "category": "" },
+            { "id": "", "amount": "", "date": "", "category": "" }
           ]
         },
-
         {
           "accountId": 1,
           "accountType": "Debit Card",
-
           "transactions": [
-            {
-              "id": "",
-              "amount": "",
-              "date": "",
-              "category": ""
-            },
-            {
-              "id": "",
-              "amount": "",
-              "date": "",
-              "category": ""
-            },
-            {
-              "id": "",
-              "amount": "",
-              "date": "",
-              "category": ""
-            }
+            { "id": "", "amount": "", "date": "", "category": "" },
+            { "id": "", "amount": "", "date": "", "category": "" },
+            { "id": "", "amount": "", "date": "", "category": "" }
           ]
         }
       ]
