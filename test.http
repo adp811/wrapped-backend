@@ -1,32 +1,32 @@
-http://localhost:5000/api/user/all
+http://localhost:4000/api/user/all
 
 
 ###
 
-http://localhost:5000/api/user/0/accounts
-
-
-###
-
-
-http://localhost:5000/api/user/0/1/transactions
-
-
-###
-
-http://localhost:5000/api/user/0/all
+http://localhost:4000/api/user/0/accounts
 
 
 ###
 
 
-POST http://localhost:5000/api/user/0/add/macy's
+http://localhost:4000/api/user/0/1/transactions
+
+
+###
+
+http://localhost:4000/api/user/0/all
 
 
 ###
 
 
-GET http://localhost:5000/api/categories/0/modify/1/coffee
+POST http://localhost:4000/api/user/0/add/macy's
+
+
+###
+
+
+GET http://localhost:4000/api/categories/0/modify/1/Candy
 
 
 
