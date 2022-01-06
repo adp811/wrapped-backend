@@ -13,5 +13,5 @@ node_modules/
 
 # test #
 ######################
-.http
-.txt
+test.http
+test.txt
