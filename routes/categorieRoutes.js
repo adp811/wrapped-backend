@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const fs = require("fs");
 
-router.post("/:userID/categories/add/:catName", (req, res) => {
+router.post("/:userID/add/:catName", (req, res) => {
   const userID = req.params.userID;
   const catName = req.params.catName;
 
@@ -16,7 +16,7 @@ router.post("/:userID/categories/add/:catName", (req, res) => {
   res.end;
 });
 
-router.patch("/:userID/categories/modify/:transID/:catName", (req, res) => {
+router.patch("/:userID/modify/:transID/:catName", (req, res) => {
   const userID = req.params.userID;
   const transID = req.params.transID;
   const catName = req.params.catName;
