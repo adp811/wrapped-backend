@@ -46,21 +46,21 @@ export const data = [
 
             transactions: [
               {
-                id: 3,
+                id: 0,
                 amount: 30.99,
                 date: '6-12-2021',
                 category: 'Shopping',
                 location: 'Amazon',
               },
               {
-                id: 4,
+                id: 1,
                 amount: 1023.43,
                 date: '7-12-2021',
                 category: 'Housing',
                 location: 'N/A',
               },
               {
-                id: 5,
+                id: 2,
                 amount: 1027.43,
                 date: '8-21-2021',
                 category: 'Utilities',
