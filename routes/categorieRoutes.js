@@ -13,7 +13,7 @@ router.get("/:userID/add/:catName", (req, res) => {
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
 
-  res.end;
+  res.send("Added category");
 });
 
 router.get("/:userID/modify/:transID/:catName", (req, res) => {
@@ -29,7 +29,7 @@ router.get("/:userID/modify/:transID/:catName", (req, res) => {
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
 
-  res.end;
+  res.send("Modified Category");
 });
 
 module.exports = router;
