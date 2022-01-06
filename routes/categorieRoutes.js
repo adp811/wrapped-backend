@@ -12,6 +12,8 @@ router.post("/:userID/categories/add/:catName", (req, res) => {
 
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
+
+  res.end;
 });
 
 router.patch("/:userID/categories/modify/:transID/:catName", (req, res) => {
@@ -26,6 +28,8 @@ router.patch("/:userID/categories/modify/:transID/:catName", (req, res) => {
 
   let modifiedData = JSON.stringify(data);
   fs.writeFileSync("./data/data.json", modifiedData);
+
+  res.end;
 });
 
 module.exports = router;
