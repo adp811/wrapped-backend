@@ -13,52 +13,58 @@ export const data = [
         accounts: [
           {
             accountId: 0,
-            accountType: 'Credit Card',
+            accountType: 'Capital One QuickSilver',
 
             transactions: [
               {
-                id: '',
-                amount: '',
-                date: '',
-                category: '',
+                id: 0,
+                amount: 19.03,
+                date: '02-17-2021',
+                category: 'Food',
+                location: 'Chipotle',
               },
               {
-                id: '',
-                amount: '',
-                date: '',
-                category: '',
+                id: 1,
+                amount: 54.01,
+                date: '02-18-2021',
+                category: 'Gas',
+                location: 'Shell',
               },
               {
-                id: '',
-                amount: '',
-                date: '',
-                category: '',
+                id: 2,
+                amount: 80.52,
+                date: '2-20-2021',
+                category: 'Shopping',
+                location: 'Target',
               },
             ],
           },
 
           {
             accountId: 1,
-            accountType: 'Debit Card',
+            accountType: 'Capital One 360 Checking',
 
             transactions: [
               {
-                id: '',
-                amount: '',
-                date: '',
-                category: '',
+                id: 3,
+                amount: 30.99,
+                date: '6-12-2021',
+                category: 'Shopping',
+                location: 'Amazon',
               },
               {
-                id: '',
-                amount: '',
-                date: '',
-                category: '',
+                id: 4,
+                amount: 1023.43,
+                date: '7-12-2021',
+                category: 'Housing',
+                location: 'N/A',
               },
               {
-                id: '',
-                amount: '',
-                date: '',
-                category: '',
+                id: 5,
+                amount: 1027.43,
+                date: '8-21-2021',
+                category: 'Utilities',
+                location: 'N/A',
               },
             ],
           },
@@ -67,12 +73,12 @@ export const data = [
 
       {
         userID: 1,
-        userFirstName: '',
-        userLastName: '',
-        userEmail: '',
-        userPassword: '',
-        userDOB: '',
-        annualIncome: 0,
+        userFirstName: 'Jane',
+        userLastName: 'Doe',
+        userEmail: 'janedoe@email.com',
+        userPassword: 'password123',
+        userDOB: '06-01-2000',
+        annualIncome: 100000,
 
         accounts: [
           {
