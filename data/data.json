@@ -7058,9 +7058,181 @@
           "accountId": 0,
           "accountType": "Credit Card",
           "transactions": [
-            { "id": "", "amount": "", "date": "", "category": "" },
-            { "id": "", "amount": "", "date": "", "category": "" },
-            { "id": "", "amount": "", "date": "", "category": "" }
+            {
+              "id": 2,
+              "amount": 53.61,
+              "date": "7/7/2021",
+              "category": "Food",
+              "location": "Chick-fil-A"
+            },
+            {
+              "id": 5,
+              "amount": 92.79,
+              "date": "3/23/2021",
+              "category": "Food",
+              "location": "Chipotle Mexican Grill"
+            },
+            {
+              "id": 7,
+              "amount": 54.56,
+              "date": "10/13/2021",
+              "category": "Food",
+              "location": "Burger King"
+            },
+            {
+              "id": 9,
+              "amount": 40.3,
+              "date": "5/21/2021",
+              "category": "Food",
+              "location": "Chipotle Mexican Grill"
+            },
+            {
+              "id": 10,
+              "amount": 42.54,
+              "date": "8/6/2021",
+              "category": "Food",
+              "location": "Wendy's"
+            },
+            {
+              "id": 3,
+              "amount": 75.17,
+              "date": "7/30/2021",
+              "category": "Housing",
+              "location": "AES"
+            },
+            {
+              "id": 8,
+              "amount": 37.38,
+              "date": "9/11/2021",
+              "category": "Housing",
+              "location": "Entergy"
+            },
+            {
+              "id": 20,
+              "amount": 60.27,
+              "date": "9/15/2021",
+              "category": "Housing",
+              "location": "Sempra Energy"
+            },
+            {
+              "id": 22,
+              "amount": 67.61,
+              "date": "5/3/2021",
+              "category": "Housing",
+              "location": "NRG Energy"
+            },
+            {
+              "id": 23,
+              "amount": 22.87,
+              "date": "11/10/2021",
+              "category": "Housing",
+              "location": "Duke Energy"
+            },
+            {
+              "id": 14,
+              "amount": 88.95,
+              "date": "1/14/2021",
+              "category": "Utilities",
+              "location": "Southern Company"
+            },
+            {
+              "id": 15,
+              "amount": 85.52,
+              "date": "3/31/2021",
+              "category": "Utilities",
+              "location": "Exelon"
+            },
+            {
+              "id": 16,
+              "amount": 82.57,
+              "date": "7/29/2021",
+              "category": "Utilities",
+              "location": "First Energy"
+            },
+            {
+              "id": 19,
+              "amount": 2.67,
+              "date": "7/24/2021",
+              "category": "Utilities",
+              "location": "Duke Energy"
+            },
+            {
+              "id": 21,
+              "amount": 41.72,
+              "date": "4/27/2021",
+              "category": "Utilities",
+              "location": "Dominion Resources"
+            },
+            {
+              "id": 1,
+              "amount": 98.28,
+              "date": "12/12/2021",
+              "category": "Shopping",
+              "location": "Best Buy"
+            },
+            {
+              "id": 4,
+              "amount": 90.12,
+              "date": "8/19/2021",
+              "category": "Shopping",
+              "location": "Walmart"
+            },
+            {
+              "id": 6,
+              "amount": 71.68,
+              "date": "12/2/2021",
+              "category": "Shopping",
+              "location": "Amazon"
+            },
+            {
+              "id": 13,
+              "amount": 43.34,
+              "date": "2/22/2021",
+              "category": "Shopping",
+              "location": "Costco"
+            },
+            {
+              "id": 17,
+              "amount": 24.2,
+              "date": "6/17/2021",
+              "category": "Shopping",
+              "location": "Best Buy"
+            },
+            {
+              "id": 26,
+              "amount": 11.66,
+              "date": "3/20/2021",
+              "category": "Gas",
+              "location": "Valero"
+            },
+            {
+              "id": 45,
+              "amount": 11.86,
+              "date": "10/29/2021",
+              "category": "Gas",
+              "location": "Sunoco"
+            },
+            {
+              "id": 46,
+              "amount": 95.83,
+              "date": "4/30/2021",
+              "category": "Gas",
+              "location": "Sunoco"
+            },
+            {
+              "id": 50,
+              "amount": 78.72,
+              "date": "9/6/2021",
+              "category": "Gas",
+              "location": "Exxon Mobil"
+            },
+            {
+              "id": 52,
+              "amount": 46.29,
+              "date": "4/18/2021",
+              "category": "Gas",
+              "location": "Speedway"
+            }
           ]
         },
         {
