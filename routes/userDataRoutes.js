@@ -71,6 +71,7 @@ router.get("/:userID/info", (req, res) => {
     userEmail: data.userEmail,
     userDOB: data.userDOB,
     annualIncome: data.annualIncome,
+    monthlySpendGoal: data.monthlySpendGoal,
   };
 
   res.send(JSON.stringify(returnData));
