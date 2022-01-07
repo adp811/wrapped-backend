@@ -40,6 +40,38 @@ Parameters:
 <userID> : replace with '0' for default user
 <locationName> : replace with location name (Starbucks, Target, Amazon, etc.)
 
-https://wrapped1-backend.herokuapp.com/api/user/0/0/transactions/location/Target
+Complete API Call: https://wrapped1-backend.herokuapp.com/api/user/0/0/transactions/location/Target
 
 ^^ Returns all transactions under the Target location for the default user ^^
+
+
+//______________________________________________________________________________________\\
+
+
+#### Request All Information about a User
+
+https://wrapped1-backend.herokuapp.com/api/user/<userID>/all
+
+Parameters: 
+
+<userID> : replace with '0' for default user
+
+Complete API Call: https://wrapped1-backend.herokuapp.com/api/user/0/all
+
+^^ Returns all info about User 0 (default user) ^^
+
+
+//______________________________________________________________________________________\\
+
+
+#### Request All Onboarding Information about a User
+
+https://wrapped1-backend.herokuapp.com/api/user/<userID>/info
+
+Parameters: 
+
+<userID> : replace with '0' for default user
+
+Complete API Call: https://wrapped1-backend.herokuapp.com/api/user/0/info
+
+^^ Returns all onboarding info about User 0 (default user) ^^ ** (annual income, email, first/last name) 
